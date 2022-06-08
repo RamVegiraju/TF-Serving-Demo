@@ -7,5 +7,5 @@ echo ${content}
 
 set -B
 for i in {1..10}; do
-  curl --data-binary @${payload} -H "Content-Type: ${content}" -v http://localhost:8501/v1/models/boston:predict
+  curl --data-binary @${payload} -H "Content-Type: ${content}" -v http://localhost:8501/v1/models/boston_model:predict
 done
