@@ -1,5 +1,7 @@
 ## TF Serving With Docker
 
+## [Blog](https://ram-vegiraju.medium.com/hosting-models-with-tf-serving-on-docker-aceff9fbf533)
+
 ### Pull TensorFlow Serving Image
 
 ```
